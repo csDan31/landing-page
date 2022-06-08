@@ -30,7 +30,7 @@ ul {
     align-items: center;
 }
 
-/* second body */
+/* second section */
 .information {
     text-align: center;
 }
@@ -41,6 +41,26 @@ ul {
     gap: 20px;
 }
 
-.img-links {
-    max-width: 200px;
+.info-links {
+    max-width: 100px;
+}
+
+/* third section */
+
+.third-section {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.quote-container {
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.second-quote {
+    display: flex;
+    align-self: flex-end;
 }
