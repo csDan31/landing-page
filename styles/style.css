@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
     margin: 0;
     min-height: 100vh;
+    flex: 1 1 auto;
 }
 
 /* header & footer */
@@ -31,8 +32,9 @@ ul {
 }
 
 /* second section */
-.information {
+.second-section {
     text-align: center;
+    padding: 20px;
 }
 
 .info-container {
@@ -52,15 +54,36 @@ ul {
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: #e5e7eb;
 }
 .quote-container {
-    width: 400px;
     border-radius: 10px;
-    padding: 15px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
+    font-style: italic;
+    text-decoration-color: #1f2937;
+    font-size: 36px;
+    width: 750px;
 }
 .second-quote {
     display: flex;
     align-self: flex-end;
+}
+
+/* fourth section */
+.fourth-section {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #3882f6;
+    margin: 50px auto;
+    padding: 30px;
+    width: 700px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
 }
