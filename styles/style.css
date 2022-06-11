@@ -5,14 +5,18 @@ body {
     margin: 0;
     min-height: 100vh;
     flex: 1 1 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* header & header links */
 a:link, a:active, a:hover, a:visited {
     text-decoration: none;
-    text-decoration-color: wheat;
 }
-
+img {
+    height: 0;
+    min-height: 100%;
+    width: 100%;
+}
 /* hero */
 
 .hero-container {
@@ -23,13 +27,14 @@ a:link, a:active, a:hover, a:visited {
     background-color: #1f2937;
     color: white;
     font-size: 18px;
+    gap: 20px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
+    width: 1000px;
 }
 
 ul {
@@ -45,6 +50,10 @@ ul {
     justify-content: center;
     align-content: center;
     padding: 100px;
+}
+
+.body-one {
+    gap: 5px;
 }
 
 h1 {
@@ -64,9 +73,24 @@ h2{
     color: #1f2937;
 }
 
+a:visited {
+    color: white;
+}
+
+.sign-up {
+    font-size: 12px;
+    color: #f9faf8;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
 .container-size {
-    width: 800px;
+    width: 1000px;
     display: flex;
+    gap: 20px;
 }
 
 .placeholder {
@@ -79,6 +103,7 @@ h2{
 .second-section {
     text-align: center;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 .info-container {
@@ -88,7 +113,7 @@ h2{
 }
 
 .info-links {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 /* third section */
@@ -108,7 +133,7 @@ h2{
     font-style: italic;
     text-decoration-color: #1f2937;
     font-size: 36px;
-    width: 750px;
+    width: 950px;
 }
 .second-quote {
     display: flex;
@@ -126,13 +151,14 @@ h2{
     background-color: #3882f6;
     margin: 50px auto;
     padding: 30px;
-    width: 700px;
+    width: 950px;
 }
 
 button {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
+    border-color: white;
 }
 
 /* footer */
@@ -141,4 +167,16 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+}
+
+.round-corners {
+    border-radius: 10px;
+}
+
+#resize {
+    height: 150px;
+    width: 150px;
 }
