@@ -11,6 +11,7 @@ body {
 /* header & header links */
 a:link, a:active, a:hover, a:visited {
     text-decoration: none;
+    color: white;
 }
 img {
     height: 0;
@@ -71,10 +72,6 @@ h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-}
-
-a:visited {
-    color: white;
 }
 
 .sign-up {
